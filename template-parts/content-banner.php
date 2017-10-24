@@ -61,7 +61,7 @@ elseif( is_category() || is_tag() ) :
 	
 
 // if is single news artice. 
-elseif( is_singular('post') ) : 
+elseif( is_singular('post') || is_single() ) : 
 
 	// if featured image is set on news archive page, use on-page options, otherwise use news default banner (theme options)
 	if( has_post_thumbnail( get_option('page_for_post') ) ) :
