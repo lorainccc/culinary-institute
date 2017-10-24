@@ -62,11 +62,12 @@ elseif( is_category() || is_tag() ) :
 
 // if is single news artice. 
 elseif( is_singular('post') || is_single() ) : 
+	
+	$blog_archive_id = get_option('page_for_posts');
 
 	// if featured image is set on news archive page, use on-page options, otherwise use news default banner (theme options)
-	if( has_post_thumbnail( get_option('page_for_post') ) ) :
+	if( has_post_thumbnail( $blog_archive_id ) ) :
 
-	$blog_archive_id = get_option('page_for_posts');
 	$thumb_id = get_post_thumbnail_id( $blog_archive_id );
 	$thumb_url_array = wp_get_attachment_image_src($thumb_id, 'full', true);
 	$background_image = $thumb_url_array[0];
