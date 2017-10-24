@@ -20,7 +20,7 @@
 			
 				<div class="float-right">
 				
-					<?php campana_top_nav(); ?>
+					<?php culinary_top_nav(); ?>
 					
 				</div>
 				
@@ -30,7 +30,7 @@
 			
 				<div class="float-right">
 				
-					<?php campana_main_nav(); ?>
+					<?php culinary_main_nav(); ?>
 										
 				</div>
 							

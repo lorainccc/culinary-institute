@@ -7,8 +7,8 @@ if( is_active_sidebar('lccc-search-sidebar') ) :
 
 endif;
 
-campana_main_nav();
+culinary_main_nav();
 
-campana_top_nav(); 
+culinary_top_nav(); 
 
 ?>

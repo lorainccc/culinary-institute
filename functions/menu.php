@@ -10,9 +10,9 @@ register_nav_menus(
 		'mobile-primary' => esc_html__( 'Mobile Primary Menu', 'culinary' ),
   		'header-shortcuts' => esc_html__( 'Header Shortcuts Menu', 'lorainccc' ),
   		'mobile-header-shortcuts' => esc_html__( 'Mobile Header Shortcuts Menu', 'lorainccc' ),
-		'campana-main-nav' => __( 'Campana Main Menu', 'culinary'),
-		'campana-top-nav' => __( 'Campana Top Menu'),
-		'campana-footer-nav' => __( 'Campana Footer Links', 'culinary')
+		'culinary-main-nav' => __( 'Culinary Main Menu', 'culinary'),
+		'culinary-top-nav' => __( 'Culinary Top Menu'),
+		'culinary-footer-nav' => __( 'Culinary Footer Links', 'culinary')
 	) 
 );
 
@@ -163,13 +163,13 @@ function footer_quicklinks_nav() {
 Menus, Walkers and Fallbacks added by Kiwi Creative for Campana theme
 ***********************************************************************/
 
-// Campana Main Menu
-function campana_main_nav() {
+// Culinary Institute Main Menu
+function culinary_main_nav() {
 	 wp_nav_menu(array(
         'container' => false,                           // Remove nav container
         'menu_class' => 'vertical large-horizontal menu',       // Adding custom nav class
         'items_wrap' => '<ul id="%1$s" class="%2$s" data-responsive-menu="accordion large-dropdown" data-close-on-click-inside="false">%3$s</ul>',
-        'theme_location' => 'campana-main-nav',        			// Where it's located in the theme
+        'theme_location' => 'culinary-main-nav',        			// Where it's located in the theme
         'depth' => 5,                                   // Limit the depth of the nav
         'fallback_cb' => false,                         // Fallback function (see below)
         'walker' => new Topbar_Menu_Walker()
@@ -185,21 +185,21 @@ class Topbar_Menu_Walker extends Walker_Nav_Menu {
 }
 
 // The Top Menu
-function campana_top_nav() {
+function culinary_top_nav() {
     wp_nav_menu(array(
     	'container' => 'false',                         // Remove nav container
     	'menu' => __( 'Campana Top Menu', 'culinary' ),   	// Nav name
     	'menu_class' => 'vertical large-horizontal menu',      					// Adding custom nav class
-    	'theme_location' => 'campana-top-nav',             // Where it's located in the theme
+    	'theme_location' => 'culinary-top-nav',             // Where it's located in the theme
         'depth' => 0,                                   // Limit the depth of the nav
     	'fallback_cb' => ''  							// Fallback function
 	));
 }
 
-function campana_footer_nav() {
+function culinary_footer_nav() {
 	wp_nav_menu( array(
 		'menu_class'     => 'footer-links',
-		'theme_location' => 'campana-footer-nav',
+		'theme_location' => 'culinary-footer-nav',
 	));
 }
 
