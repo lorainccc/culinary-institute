@@ -262,12 +262,3 @@ if( $background_image ) :
 
 
 <?php endif; ?>
-
-
-<div class="row">
-	<div class="small-12 columns text-center">
-		<div class="hide-for-medium">Small</div>
-		<div class="show-for-medium-only">Medium</div>
-		<div class="show-for-large">Large</div>
-	</div>
-</div>
