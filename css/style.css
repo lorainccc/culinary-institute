@@ -457,9 +457,10 @@ hr.shadow-divider {
   .page-banner .page-banner-inner {
     height: 100%;
     width: 100%; }
-  .page-banner .banner-headline h1 {
+  .page-banner .banner-headline h1, .page-banner .banner-headline .fake-h1 {
     color: #fefefe;
     font-weight: 700;
+    font-family: "Raleway", sans-serif;
     margin: 0;
     line-height: 110%;
     text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.7); }
@@ -496,7 +497,7 @@ hr.shadow-divider {
         align-self: center;
         margin-left: 1.5rem;
         width: auto; }
-        .page-banner .banner-headline h1 {
+        .page-banner .banner-headline h1, .page-banner .banner-headline .fake-h1 {
           font-size: 6.5rem;
           width: auto;
           display: inline; }
@@ -542,7 +543,7 @@ hr.shadow-divider {
         align-self: center;
         margin-left: 1.5rem;
         width: auto; }
-        .page-banner .banner-headline h1 {
+        .page-banner .banner-headline h1, .page-banner .banner-headline .fake-h1 {
           font-size: 6rem;
           width: auto;
           display: inline; }
@@ -572,7 +573,7 @@ hr.shadow-divider {
         width: 60px; }
     .page-banner .headline-wrapper {
       display: inline; }
-    .page-banner .banner-headline h1 {
+    .page-banner .banner-headline h1, .page-banner .banner-headline .fake-h1 {
       font-size: 2.5rem;
       width: auto;
       display: inline;

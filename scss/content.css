@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$header-font-family".
-        on line 20 of /Applications/MAMP/htdocs/LCCC-Culinary/wp-content/themes/lccc-culinary_dev/scss/content.scss
+        on line 20 of /Users/mac306/Desktop/culinary-institute_dev/scss/content.scss
 
 15: /*****************************************
 16: 2.1 BASIC CONTENT STYLES
@@ -15,7 +15,7 @@ Error: Undefined variable: "$header-font-family".
 25: }
 
 Backtrace:
-/Applications/MAMP/htdocs/LCCC-Culinary/wp-content/themes/lccc-culinary_dev/scss/content.scss:20
+/Users/mac306/Desktop/culinary-institute_dev/scss/content.scss:20
 /Applications/Adobe Dreamweaver CC 2017/Adobe Dreamweaver CC 2017.app/Contents/Resources/gems/rubygems/gems/sass-3.4.19/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Applications/Adobe Dreamweaver CC 2017/Adobe Dreamweaver CC 2017.app/Contents/Resources/gems/rubygems/gems/sass-3.4.19/lib/sass/script/tree/node.rb:50:in `perform'
 /Applications/Adobe Dreamweaver CC 2017/Adobe Dreamweaver CC 2017.app/Contents/Resources/gems/rubygems/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:395:in `visit_prop'
@@ -75,4 +75,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$header-font-family\".\A         on line 20 of /Applications/MAMP/htdocs/LCCC-Culinary/wp-content/themes/lccc-culinary_dev/scss/content.scss\A \A 15: /*****************************************\A 16: 2.1 BASIC CONTENT STYLES\A 17: *****************************************/\A 18: h1, h2, h3, h4, h5 {\A 19: 	font: {\A 20: 		family: $header-font-family;\A 21: 		weight: $font-bold;\A 22: 	} \A 23: 	\A 24: 	line-height: 110%;\A 25: }"; }
+  content: "Error: Undefined variable: \"$header-font-family\".\A         on line 20 of /Users/mac306/Desktop/culinary-institute_dev/scss/content.scss\A \A 15: /*****************************************\A 16: 2.1 BASIC CONTENT STYLES\A 17: *****************************************/\A 18: h1, h2, h3, h4, h5 {\A 19: 	font: {\A 20: 		family: $header-font-family;\A 21: 		weight: $font-bold;\A 22: 	} \A 23: 	\A 24: 	line-height: 110%;\A 25: }"; }
