@@ -74,7 +74,7 @@ if( have_rows('overview_spotlights') ) :
 	
 	<?php if( $spotlight_image ) : ?>
 		
-		<img src="<?php echo $spotlight_image['../../lccc-ideation-center_dev/template-parts/url']; ?>" alt="<?php echo $spotlight_image['alt']; ?>" />
+		<img src="<?php echo $spotlight_image['url']; ?>" alt="<?php echo $spotlight_image['alt']; ?>" />
 		
 	<?php 
 			 
