@@ -178,6 +178,8 @@ $home_news_heading = get_field('home_news_heading');
 					
 					endif;
 					
+					echo '<h3>' . the_title() . '</h3>';
+					
 					the_excerpt();
 					
 					?>
