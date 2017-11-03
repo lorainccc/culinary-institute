@@ -72,6 +72,7 @@ p {
 .read-more {
 	font-weight: $font-bold;
 	color: $medium-blue;
+	text-decoration: underline;
 }
 
 hr.shadow-divider {
@@ -181,6 +182,10 @@ hr.shadow-divider {
 		padding-top: 2rem;
 		border-top: 1px solid $medium-gray;
 	}
+}
+
+main a:not(.button) {
+	text-decoration: underline;
 }
 
 /***********************************************
@@ -880,6 +885,7 @@ hr.shadow-divider {
 				weight: $font-bold;
 			}
 			color: $medium-blue;
+			text-decoration: underline;
 		}
 		
 		@media screen and (min-width: 40em) and (max-width: 63.9375em) {
@@ -1162,6 +1168,7 @@ hr.shadow-divider {
 		weight: $font-bold;
 	}
 	color: $medium-blue;
+	text-decoration: underline;
 }
 
 @media screen and (max-width: 39.9375em) {
