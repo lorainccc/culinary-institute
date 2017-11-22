@@ -72,7 +72,10 @@ p {
 .read-more {
 	font-weight: $font-bold;
 	color: $medium-blue;
-	text-decoration: underline;
+	&:hover {
+		text-decoration: underline;
+	}
+	
 }
 
 hr.shadow-divider {
@@ -184,7 +187,7 @@ hr.shadow-divider {
 	}
 }
 
-main a:not(.button) {
+main a:not(.button):hover {
 	text-decoration: underline;
 }
 
@@ -885,7 +888,10 @@ main a:not(.button) {
 				weight: $font-bold;
 			}
 			color: $medium-blue;
-			text-decoration: underline;
+			&:hover {
+				text-decoration: underline;
+			}
+			
 		}
 		
 		@media screen and (min-width: 40em) and (max-width: 63.9375em) {
@@ -1172,7 +1178,10 @@ main a:not(.button) {
 		weight: $font-bold;
 	}
 	color: $medium-blue;
-	text-decoration: underline;
+	&:hover {
+		text-decoration: underline;	
+	}
+	
 }
 
 @media screen and (max-width: 39.9375em) {
@@ -1374,7 +1383,10 @@ main a:not(.button) {
 	a {
 		font-weight: $font-semibold;
 		color: $teal;
-		text-decoration: underline;
+		&:hover {
+			text-decoration: underline;
+		}
+		
 	}
 	
 	margin-bottom: .5rem;
@@ -1496,7 +1508,10 @@ main a:not(.button) {
 	a {
 		span {
 			color: $teal;
-			text-decoration: underline;
+			&:hover {
+				text-decoration: underline;
+			}
+			
 			font-weight: $font-semibold;
 		}
 	}

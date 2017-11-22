@@ -368,8 +368,9 @@ p {
 
 .read-more {
   font-weight: 700;
-  color: #0055a4;
-  text-decoration: underline; }
+  color: #0055a4; }
+  .read-more:hover {
+    text-decoration: underline; }
 
 hr.shadow-divider {
   border: 0;
@@ -448,7 +449,7 @@ hr.shadow-divider {
     margin-top: 2rem;
     padding-top: 2rem;
     border-top: 1px solid #cacaca; } }
-main a:not(.button) {
+main a:not(.button):hover {
   text-decoration: underline; }
 
 /***********************************************
@@ -833,8 +834,9 @@ main a:not(.button) {
 #cool .featured-items-row a {
   font-size: 1rem;
   font-weight: 700;
-  color: #0055a4;
-  text-decoration: underline; }
+  color: #0055a4; }
+  #cool .featured-items-row a:hover {
+    text-decoration: underline; }
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
   #cool .featured-items-row .columns {
     padding-top: 1.5rem;
@@ -998,8 +1000,9 @@ main a:not(.button) {
 .read-more {
   font-size: 1rem;
   font-weight: 700;
-  color: #0055a4;
-  text-decoration: underline; }
+  color: #0055a4; }
+  .read-more:hover {
+    text-decoration: underline; }
 
 @media screen and (max-width: 39.9375em) {
   .spotlight-row > div {
@@ -1118,8 +1121,9 @@ main a:not(.button) {
   margin-bottom: .5rem; }
   .post-taxonomies a, .event-taxonomy-links a {
     font-weight: 600;
-    color: #0d8896;
-    text-decoration: underline; }
+    color: #0d8896; }
+    .post-taxonomies a:hover, .event-taxonomy-links a:hover {
+      text-decoration: underline; }
 
 .blog-single-inner {
   padding-top: 2rem;
@@ -1196,8 +1200,9 @@ main a:not(.button) {
     font-weight: 700; }
   .event-info a span {
     color: #0d8896;
-    text-decoration: underline;
     font-weight: 600; }
+    .event-info a span:hover {
+      text-decoration: underline; }
   .event-info div:not(:last-child) {
     margin-bottom: .5rem; }
 
@@ -1594,15 +1599,17 @@ footer {
   list-style: none;
   margin: 0; }
 .footer-inner a {
-  color: #fefefe;
-  text-decoration: underline; }
+  color: #fefefe; }
+  .footer-inner a:hover {
+    text-decoration: underline; }
 
 .footer-logo {
   margin-bottom: 2rem; }
 
 .footer-links li > a {
-  font-size: .75rem;
-  text-decoration: underline; }
+  font-size: .75rem; }
+  .footer-links li > a:hover {
+    text-decoration: underline; }
 
 @media screen and (max-width: 39.9375em) {
   .footer-sm-links {

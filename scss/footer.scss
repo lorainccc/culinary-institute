@@ -29,7 +29,9 @@ footer {
 	
 	a {
 		color: $white;
-		text-decoration: underline;
+		&:hover {
+			text-decoration: underline;
+		}
 	}
 }
 
@@ -40,7 +42,10 @@ footer {
 .footer-links {
 	li > a {
 		font-size: .75rem;
-		text-decoration: underline;
+		&:hover {
+			text-decoration: underline;
+		}
+		
 	}
 }
 
