@@ -168,7 +168,7 @@ if( have_rows('flexible_content_layouts') ) :
 								
 								<li class="orbit-slide<?php if( $slide_counter == 1 ) : echo ' is-active'; endif; ?>">
 								
-									<img src="<?php echo $image['../../lccc-ideation-center_dev/template-parts/url']; ?>" alt="<?php echo $image['alt']; ?>" class="orbit-image" />
+									<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" class="orbit-image" />
 								
 								</li>
 								
