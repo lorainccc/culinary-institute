@@ -4,7 +4,7 @@
 	
 		<div class="top-bar-title">
 		
-			<a href="<?php echo home_url(); ?>" title="Link to Homepage"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/lccc-culinary-arts.jpg" alt="Campana Center for Ideation and Invention of Lorain County Community College" class="logo" height="64" width="254" /></a>
+			<a href="<?php echo home_url(); ?>" title="Link to Homepage"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/lccc-culinary-logo.jpg" alt="Campana Center for Ideation and Invention of Lorain County Community College" class="logo" height="64" width="254" /></a>
 			
 		</div>
 		
