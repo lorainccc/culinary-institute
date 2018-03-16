@@ -93,7 +93,7 @@ $ap_description = get_field('ap_description');
 
 					<?php if( $section_image ) : ?>
 
-					<img src="<?php echo $section_image['../../lccc-ideation-center_dev/template-parts/url']; ?>" alt="<?php echo $section_image['alt']; ?>" />
+						<img src="<?php echo $section_image['url']; ?>" alt="<?php echo $section_image['alt']; ?>" />
 
 					<?php endif; ?>
 
