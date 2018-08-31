@@ -126,6 +126,8 @@ require get_stylesheet_directory() . '/inc/jetpack.php';
 /* End Menu Functions */
 // CHANGE EXCERPT LENGTH FOR DIFFERENT POST TYPES
 
+add_post_type_support( 'page', 'excerpt' );
+
 function custom_excerpt_length($length) {
     global $post;
     if ($post->post_type == 'lccc_event')

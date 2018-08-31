@@ -35,28 +35,34 @@ $facebook_url = get_field('facebook_url', 'option');
 						
 							<div class="small-12 medium-4 columns">
 							
-								<img class="footer-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/images/LCCC-Campana-logo-white.png" alt="Campana Center for Ideation adn Invention of Lorain County Community College" />
+								<img class="footer-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/images/lccc-culinary-logo-white.png" alt="Culinary Arts Institute of Lorain County Community College" />
 								
 								<?php if( $twitter_url || $instagram_url || $facebook_url ) : ?>
 								
-								<h2>Connect Heading Needed</h2>
+								<h2>Connect With Us</h2>
 								
 								<ul class="footer-sm-links menu">
 								
 									<?php if( $twitter_url ) : ?>
 									
-									<li><a href="<?php echo $facebook_url; ?>" title="Follow [insert name] on Facebook" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons/facebook_white.svg" alt="Facebook icon" height="30" width="30" /></a></li>
+									<li><a href="<?php echo $facebook_url; ?>" title="Follow LCCC Culinary Arts on Facebook" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons/facebook_white.svg" alt="Facebook icon" height="30" width="30" /></a></li>
 									
-									<li><a href="<?php echo $twitter_url; ?>" title="Follow [insert name] on Twitter" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons/twitter_white.svg" alt="Twitter icon" height="30" width="30" /></a></li>
+									<li><a href="<?php echo $twitter_url; ?>" title="Follow LCCC Culinary Arts on Twitter" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons/twitter_white.svg" alt="Twitter icon" height="30" width="30" /></a></li>
 									
-									<li><a href="<?php echo $instagram_url; ?>" title="Follow [insert name] on Instagram" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons/instagram_white.svg" alt="Instagram icon" height="30" width="30" /></a></li>
+									<li><a href="<?php echo $instagram_url; ?>" title="Follow LCCC Culinary Arts on Instagram" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons/instagram_white.svg" alt="Instagram icon" height="30" width="30" /></a></li>
 									
 									<?php endif; ?>
 									
 								</ul>
 								
 								<?php endif; ?>
-							
+								
+	     <?php if($_GET['siteurl'] == ''){ ?>
+     <p class="website-feedback">
+      <a href="/website-feedback?siteurl=<?php echo 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; ?>" title="Provide Feedback about this Page" target="_blank">Feedback about this page</a>
+     </p>
+     <?php } ?>						
+								
 							</div>
 							
 							<div class="small-12 medium-4 columns">
@@ -71,7 +77,7 @@ $facebook_url = get_field('facebook_url', 'option');
 									
 									<div class="phone"><?php echo $phone_number; ?></div>
 									
-									<div class="email"><a href="mailto:<?php echo $email; ?>" target="_blank"><?php echo $email; ?></a></div>
+									<div class="email"><a href="mailto:<?php echo $email; ?>"><?php echo $email; ?></a></div>
 									
 									<div class="map-link"><a href="<?php echo $google_maps_link; ?>" target="_blank" title="Get Direction to <?php echo $footer_contact_section_heading; ?>"><?php echo $map_and_directions_label; ?></a></div>
 								

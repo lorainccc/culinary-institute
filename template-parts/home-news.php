@@ -100,7 +100,7 @@ $home_news_heading = get_field('home_news_heading');
 			'order'                  => 'DESC',
 			'orderby'                => 'date',
 			'post__not_in'		     => array( $exclude_post_id ),
-			'posts_per_page'		 => '3',
+			'posts_per_page'		 => '2',
 			//'nopaging'				 => false,
 			//'ignore_sticky_posts'	 => true
 		);
@@ -158,7 +158,7 @@ $home_news_heading = get_field('home_news_heading');
 				
 				<?php
 		
-					if( $counter < 3 ) :
+					if( $counter < 2 ) :
 
 						echo '<div class="column row"><div class="news-divider"></div></div>';
 
